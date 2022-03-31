@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 0.5rem solid #440083;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-auto-flow: row;
+  gap: 2rem;
+  justify-content: end;
+  align-content: end;
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  background-color: aquamarine;
+  font-size: 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.item p {
+  background-color: beige;
+}
